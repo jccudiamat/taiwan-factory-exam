@@ -1,0 +1,262 @@
+{
+  "photographer": "Martin Krzywinski",
+  "originalPlateAuthor": "Shinobu Ishihara",
+  "source": "https://mk.bcgsc.ca/ishihara-tests-for-colour-deficiency/downloads.mhtml",
+  "archive": "ishihara-tests-for-color-deficiency-lowres-v1.0.0.zip",
+  "changes": "Source origin embedded as PNG text metadata only. Original compressed image data is byte-identical to the source archive; no recoloring, resizing, reconstruction or AI generation.",
+  "rights": "No redistribution license stated in archive README. Local preview only; confirm permission before public redistribution.",
+  "plates": [
+    {
+      "plate": 1,
+      "file": "plate-1.png",
+      "sha256": "b4a6c8c1e9231fd281e01f4a826e3b367581d3f961a1a93fe28dcb078ec59f5e",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "dd0b78fab24c692de305b44011bd3142ec55975d23218d8a9410fe5a2572308c",
+      "imageDataSha256": "f89381f6380670d364ad0c51f0c529125f67d9782304f0bcc19922c76823ff43"
+    },
+    {
+      "plate": 2,
+      "file": "plate-2.png",
+      "sha256": "9842d51d8e9978552ffd5ebfbfdf7b9701ce13584c06a297924b2d911c58ca76",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "9a569f70d79660393d124657c904971b5fe221f483d35779d125d45856afb03d",
+      "imageDataSha256": "0c886487f3fba820551d28bffccbccceddb28c62c8625aa3a6960b85dbd341c6"
+    },
+    {
+      "plate": 4,
+      "file": "plate-4.png",
+      "sha256": "ba898822a20662e488707ebba77cb0bdeff8147941c9fa0157c9b5be754f1b9b",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "5759077b3eae00fa09224fd781828e1620003ea58d7dc9319a4a8f0b5c1562c4",
+      "imageDataSha256": "dc72d4953454732f62ba704b53b4f2c31f38e300b0dfa5b7269aba70ad040b79"
+    },
+    {
+      "plate": 6,
+      "file": "plate-6.png",
+      "sha256": "a4ef2268958150e9d4766b65ca47f171b1599854020da1cd0f7215a333a3df5b",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "e847ee7b5804c04c4dd94803eb37d8be12beed4ba80bd707db69756daed934eb",
+      "imageDataSha256": "97bb44d965a2b945d8cf6b703053138669f9dcb487772860dc4777ceb5982571"
+    },
+    {
+      "plate": 7,
+      "file": "plate-7.png",
+      "sha256": "2734d38859826d7317090c97b2660a6ceb2b566d4c576327800ba25385fcfc78",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "a3b0791901b1d036bcb106c195d0e97a130f83c29adf2ada1103827f984e23ee",
+      "imageDataSha256": "1a92f921ff42313ad9c831f9835d1307c3c740b33f42abec550eb0104509ebe0"
+    },
+    {
+      "plate": 8,
+      "file": "plate-8.png",
+      "sha256": "e0cc81009a65cfa458090c863e1dfa6d6eb5cff5f4473a63873f2d64742d4d51",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "ef631a8409ab2aa43763f0b3fee880206a638112e0984442e490e51e2b685f62",
+      "imageDataSha256": "0f1c42d05f2556735c4fd1a1d91f65ffd2dff36838409448676046dbfaea6954"
+    },
+    {
+      "plate": 9,
+      "file": "plate-9.png",
+      "sha256": "1938e424a1dda0f59c5903a074e6126fbe7ab91a5f4c4c0f49b402d6757b27ab",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "0893d3c058bcf5375f5c3169071d2fe616f03740e028f0989a0cacada521d81c",
+      "imageDataSha256": "52bd76dd44353dc99a507c0a7989f1930ed865cbb86191bf893ae53bba89ebca"
+    },
+    {
+      "plate": 11,
+      "file": "plate-11.png",
+      "sha256": "58e14ac77c2899f966a17432f87817208f33b791384ea81103ddb27d1c02d7be",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "8f0a4f7f944b98a1b10e26958ae6c20efba2d0879c419d6175e2f633ce2021ba",
+      "imageDataSha256": "4b20763e02692ffb610e3bab876ba286085ebb6d8f5a9fb49340d47c24dd6e0c"
+    },
+    {
+      "plate": 13,
+      "file": "plate-13.png",
+      "sha256": "43ad5bcd514b0f2effa49ea3a7b7010193f9df7197553c0559087a75cf05c3f1",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "523ab425eafa526ee5b8a2c15c8f758349937b8e6bc450cf669da9a732361657",
+      "imageDataSha256": "af0fbc6bf63608ff7bc585fedbc01dd046e4ea08c34e977728977c6af2ec46d8"
+    },
+    {
+      "plate": 14,
+      "file": "plate-14.png",
+      "sha256": "455c3ba9cfef268e8536174d5d457ca3d58321b81ff70ff6798068ec64d018e3",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "da0655ef73af3b0f4adb44c1437b05403a064c97c3f1e0e9bdf89f41c05cf0ae",
+      "imageDataSha256": "935b97322640eae77ecd008fbdd21fb9287dbe2f328f8bcad63016d3d4f22fcd"
+    },
+    {
+      "plate": 15,
+      "file": "plate-15.png",
+      "sha256": "d9252b3c49e9c26ca195ba574f2457960a8f3c90d07c04140191fd1f03de70dd",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "9a68bbe7e714037fcbe2dc08712b82fd525005f9cbf3c4aff261de1e6bcfe6d2",
+      "imageDataSha256": "d26b550e38735629effed56d9c4f9cb5956a1ac99559a21f8d7c46c0d5c6faa0"
+    },
+    {
+      "plate": 16,
+      "file": "plate-16.png",
+      "sha256": "5fdabf9bea5140b5912d0bfb2b04c3f82a6dbd35c46836295d2e3bfb2ad2f13b",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "191353da4df2f69d69f3f5c817170ef9d896afe63a7dc18e571046ee9c742933",
+      "imageDataSha256": "79ae611b33534c4aa0ed9887c74df426f6f699a59170b7b2d2a401dced526488"
+    },
+    {
+      "plate": 17,
+      "file": "plate-17.png",
+      "sha256": "8feef5b01dc0f5fc2781b28e1c52ced279add99e107b72a5229427090d367c57",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "806edd9809a8ca838f160187cb986fcd898c270dff120efd7cbb20ecdb56f39a",
+      "imageDataSha256": "44f7871a93cf7b736c2b8991646665367059c3b8280ae99938a6010b6fd05c4a"
+    },
+    {
+      "plate": 18,
+      "file": "plate-18.png",
+      "sha256": "e3989f8afcbced9e06be897808e39e55cb8d3191def3bd10c0bdc690b320a20c",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "10e873022741eb93eaf8c0bbab5fecde9346242b518b81615bb4f047caacb1ec",
+      "imageDataSha256": "a87860a447be7020d2c60f45f67180649d41f023b6f1e92c0590709ee1e894b6"
+    },
+    {
+      "plate": 20,
+      "file": "plate-20.png",
+      "sha256": "65f84e65eb19613da8f251fd72997f1f9afca334377c1ba32c828f8a4974d629",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "fc0ff9a532b95c90c494f1d161fa0196e96c07f59a70aadc391baba623a60ad4",
+      "imageDataSha256": "808f476260f146855ac547833578e20e6fc157691e22218290b49d9a94cc378f"
+    },
+    {
+      "plate": 22,
+      "file": "plate-22.png",
+      "sha256": "4fda100538daa12330817d7e019cd5881214821457d314ca716021fb328f02b7",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "b35bb340d2be200e06b46828d1c91f53da32389926771ed5edf7558f97d17553",
+      "imageDataSha256": "b7f34d15dd433cd0bdf0c55f8f2aadae96ad751d9f8afd67e877031e973704e5"
+    },
+    {
+      "plate": 23,
+      "file": "plate-23.png",
+      "sha256": "e11b48149e5ac9ff3033894469f5418331fa972500bc392499238edb77e9f338",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "94e21d8609f6e962a44f65196cdb64c25f360dc7866ec80b4f014fe057110282",
+      "imageDataSha256": "8d7c71ae2982343542f601a42cedc0b80cc5641bfbf92f76c47e614ff095b172"
+    },
+    {
+      "plate": 26,
+      "file": "plate-26.png",
+      "sha256": "fac0b2ea227a80e773aa4dc1a80448ff0e98c4b7b4600064d517e4b9ce422f47",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "28beaabdda42fbca2b19d745e4585fb54f74afa73529c7d128d101eb13dc7a61",
+      "imageDataSha256": "74039a41215a331874c13bdd4318381227a792bc673cefe9e0827bacd06afd03"
+    },
+    {
+      "plate": 28,
+      "file": "plate-28.png",
+      "sha256": "a0df2f4ee90ab77606e33e956c0ab89ab09e6b422f481eb948f629b5fd06b7c0",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "2d38984d86a584f71d219a03cdcfc24f3c16e2fe4e05bbe937994c816fe5593b",
+      "imageDataSha256": "cdd9a10e59aaa17532e580fdb4b40140f939224b7aa007ac72f887a692589690"
+    },
+    {
+      "plate": 30,
+      "file": "plate-30.png",
+      "sha256": "ecb3b7c934d2e50c0590b706a22d37a7a23b7b0c39d2aa9079a487d397d659e5",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "94b00ad05f778ff1c3f1ef248fa719ecafd714056e8cf9e61caba1b8e72bf022",
+      "imageDataSha256": "47378e255617a78db4470db51ba5911145e3c80b7189540f013b1c5e506df106"
+    },
+    {
+      "plate": 32,
+      "file": "plate-32.png",
+      "sha256": "20d90e7caa403bf5c0e40b48c421c73c8a5863e8da2b8a046b43bf861c0f87dd",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "ae8023811224018cf47617191f5dcdd51d31db6ae6dd2ea5928489a3f4673dc5",
+      "imageDataSha256": "fff54e6e611b85f51a810cb785ccd4af13c0ec20148f44acb09440449cc8d315"
+    },
+    {
+      "plate": 34,
+      "file": "plate-34.png",
+      "sha256": "3aae7e8ab02087b614f021c5955bbfa712c0cfaa37e21f91e337a4cf07f07bbb",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "ef5194fed83a2585236468c00c35cb5d8c42ed7519e192237888e0df1207569d",
+      "imageDataSha256": "5adbd67c8b82726376e7864d5bf392ba1026190cde4ae23d1cddef1df57452ca"
+    },
+    {
+      "plate": 36,
+      "file": "plate-36.png",
+      "sha256": "561f887065e3f529ac6e3772248c62c9c6468e235d962d3834c47dc53103d960",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "1b09442eab90f97fbee2df02ec64048f147c9ecd990f49f68958aead4283ecde",
+      "imageDataSha256": "f45197804061722950bbd71cca1d34e4e69e676cccb4587ddfe61f387cb6c53a"
+    },
+    {
+      "plate": 38,
+      "file": "plate-38.png",
+      "sha256": "5507fbffc461c51882fafb9e2f55cc166fb09a52af8802c244e02aa0f5522f5e",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "2535a0fcc964add7fcc9a7ef9078aea9dd81b0245eedebc01bd1a5ca8d294dca",
+      "imageDataSha256": "c42e04c28f675a5b6374759b24703b5b365f5806f08eadf64ddd86b2145c102e"
+    },
+    {
+      "plate": 3,
+      "file": "plate-3.png",
+      "sha256": "820d0c9c732037da0dce3faecb3177cd7f5896c980a4539f83dc0986e8af6d89",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "7dd9d00b2538f76a80ebc479422bad2ad3c31b86246f7f2a73c1649ac55a97e6",
+      "imageDataSha256": "ff52f46f1bc3efdd6dfa93abee8e7fbb1f6ea107e36d865d4b1b72ebf6a6b468"
+    },
+    {
+      "plate": 5,
+      "file": "plate-5.png",
+      "sha256": "144c2c467aae9cfcd9a39f40332a9fb4b1269ac207e14da82bb1c764764c4782",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "e0c7a90bd44243588a2c4e0da803eaa244b55a1270f817c9e291183f9fb67033",
+      "imageDataSha256": "cd8274772d184308585b09e3c8cc140b49a2086efe7e025c4b73d4ec6cceb73f"
+    },
+    {
+      "plate": 10,
+      "file": "plate-10.png",
+      "sha256": "c372b004f8ee9ca25262511b4da5924f12b64d12006ec033b7011b94b82c74ab",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "2bf99f45796757f6c34ad7de53fa9f0e552378cfc533e886f0cf461479184124",
+      "imageDataSha256": "df0c74b3f31a2f17b85a36be308ba009a670b51e40c907a080e41f9eb0653004"
+    },
+    {
+      "plate": 12,
+      "file": "plate-12.png",
+      "sha256": "033b4bebeeea27c84a43c2fd5093c2abab54010825fd057f680225d19c0fa41b",
+      "width": 400,
+      "height": 400,
+      "sourceSha256": "0404efb5d46d8bf64c8d755fbad785a504990bd28f46df6227be62cfc09d5c33",
+      "imageDataSha256": "d198dea3eb8e4c4ddf003ca88dcdd9ba84f52f6dddaea551a82d95d72d05b85f"
+    }
+  ]
+}

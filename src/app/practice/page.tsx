@@ -1,0 +1,10 @@
+import { pageMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight, Shuffle } from "lucide-react";
+import { TopicList } from "@/components/study-desk";
+
+export const metadata: Metadata = pageMetadata("/practice/", { title: "Factory Worker Exam Practice by Topic", description: "Practise math, English, logic, abstract reasoning, and attention to detail with 125 original questions and step-by-step explanations for Taiwan factory-job applicants." });
+export default function Practice() {
+  return <><div className="page-heading"><h1>Taiwan Factory Exam Practice Questions</h1><p>Choose math, English, logic, abstract reasoning, or attention-to-detail exercises for Taiwan factory exam preparation. Each question includes an answer explanation.</p></div><div className="practice-index"><section><h2>Choose an exam practice topic</h2><TopicList/></section><section className="mixed-banner"><Shuffle size={27} strokeWidth={1.5} aria-hidden="true"/><div><h2>Mixed factory exam practice</h2><p>Try a mixed practice with questions from all five topics.</p></div><Link className="button" href="/practice/mixed/">Start mixed practice <ArrowRight size={17} aria-hidden="true"/></Link></section></div><div className="practice-explainer"><h2>How exam question practice works</h2><div><p><strong>Train at 10 seconds per item.</strong> A 15-item drill lasts 2 minutes 30 seconds. Choose an answer to lock it. Solutions unlock after submission or time expiry.</p><p><strong>Check speed and precision.</strong> Each item has a 10-second limit; the total countdown continues through question navigation. Study the untimed lessons first if needed.</p><p><strong>Repeat until accurate and fast.</strong> Results identify missed or slow items for another timed drill. Track average seconds per answer in your progress.</p></div></div><p className="section-note">These exercises build foundational skills. They are not official exam papers or a complete syllabus for any employer.</p></>;
+}

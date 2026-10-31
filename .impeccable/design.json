@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T11:24:40.621592+00:00",
+  "title": "Design System: Taiwan Factory Exam",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.0% 0.0024 117.9)",
+          "oklch(26.4% 0.0040 117.9)",
+          "oklch(37.9% 0.0050 117.9)",
+          "oklch(49.3% 0.0054 117.9)",
+          "oklch(60.7% 0.0051 117.9)",
+          "oklch(72.1% 0.0041 117.9)",
+          "oklch(83.6% 0.0026 117.9)",
+          "oklch(95.0% 0.0008 117.9)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 89.9)",
+          "oklch(26.4% 0.0000 89.9)",
+          "oklch(37.9% 0.0000 89.9)",
+          "oklch(49.3% 0.0000 89.9)",
+          "oklch(60.7% 0.0000 89.9)",
+          "oklch(72.1% 0.0000 89.9)",
+          "oklch(83.6% 0.0000 89.9)",
+          "oklch(95.0% 0.0000 89.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0147 159.8)",
+          "oklch(26.4% 0.0239 159.8)",
+          "oklch(37.9% 0.0301 159.8)",
+          "oklch(49.3% 0.0324 159.8)",
+          "oklch(60.7% 0.0306 159.8)",
+          "oklch(72.1% 0.0249 159.8)",
+          "oklch(83.6% 0.0160 159.8)",
+          "oklch(95.0% 0.0051 159.8)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.0104 154.5)",
+          "oklch(26.4% 0.0169 154.5)",
+          "oklch(37.9% 0.0212 154.5)",
+          "oklch(49.3% 0.0229 154.5)",
+          "oklch(60.7% 0.0216 154.5)",
+          "oklch(72.1% 0.0176 154.5)",
+          "oklch(83.6% 0.0113 154.5)",
+          "oklch(95.0% 0.0036 154.5)"
+        ]
+      },
+      "forest": {
+        "role": "primary",
+        "displayName": "Forest",
+        "tonalRamp": [
+          "oklch(15.0% 0.0251 164.6)",
+          "oklch(26.4% 0.0407 164.6)",
+          "oklch(37.9% 0.0513 164.6)",
+          "oklch(49.3% 0.0552 164.6)",
+          "oklch(60.7% 0.0521 164.6)",
+          "oklch(72.1% 0.0424 164.6)",
+          "oklch(83.6% 0.0272 164.6)",
+          "oklch(95.0% 0.0086 164.6)"
+        ]
+      },
+      "forest-hover": {
+        "role": "primary",
+        "displayName": "Forest Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.0231 162.3)",
+          "oklch(26.4% 0.0376 162.3)",
+          "oklch(37.9% 0.0473 162.3)",
+          "oklch(49.3% 0.0510 162.3)",
+          "oklch(60.7% 0.0481 162.3)",
+          "oklch(72.1% 0.0392 162.3)",
+          "oklch(83.6% 0.0251 162.3)",
+          "oklch(95.0% 0.0080 162.3)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "tonalRamp": [
+          "oklch(15.0% 0.0056 121.7)",
+          "oklch(26.4% 0.0091 121.7)",
+          "oklch(37.9% 0.0115 121.7)",
+          "oklch(49.3% 0.0123 121.7)",
+          "oklch(60.7% 0.0116 121.7)",
+          "oklch(72.1% 0.0095 121.7)",
+          "oklch(83.6% 0.0061 121.7)",
+          "oklch(95.0% 0.0019 121.7)"
+        ]
+      },
+      "sage": {
+        "role": "primary",
+        "displayName": "Sage",
+        "tonalRamp": [
+          "oklch(15.0% 0.0102 126.2)",
+          "oklch(26.4% 0.0166 126.2)",
+          "oklch(37.9% 0.0209 126.2)",
+          "oklch(49.3% 0.0225 126.2)",
+          "oklch(60.7% 0.0213 126.2)",
+          "oklch(72.1% 0.0173 126.2)",
+          "oklch(83.6% 0.0111 126.2)",
+          "oklch(95.0% 0.0035 126.2)"
+        ]
+      },
+      "sage-strong": {
+        "role": "primary",
+        "displayName": "Sage Strong",
+        "tonalRamp": [
+          "oklch(15.0% 0.0192 129.7)",
+          "oklch(26.4% 0.0311 129.7)",
+          "oklch(37.9% 0.0392 129.7)",
+          "oklch(49.3% 0.0422 129.7)",
+          "oklch(60.7% 0.0399 129.7)",
+          "oklch(72.1% 0.0325 129.7)",
+          "oklch(83.6% 0.0208 129.7)",
+          "oklch(95.0% 0.0066 129.7)"
+        ]
+      },
+      "sand": {
+        "role": "secondary",
+        "displayName": "Sand",
+        "tonalRamp": [
+          "oklch(15.0% 0.0110 85.8)",
+          "oklch(26.4% 0.0178 85.8)",
+          "oklch(37.9% 0.0225 85.8)",
+          "oklch(49.3% 0.0242 85.8)",
+          "oklch(60.7% 0.0228 85.8)",
+          "oklch(72.1% 0.0186 85.8)",
+          "oklch(83.6% 0.0119 85.8)",
+          "oklch(95.0% 0.0038 85.8)"
+        ]
+      },
+      "lavender": {
+        "role": "secondary",
+        "displayName": "Lavender",
+        "tonalRamp": [
+          "oklch(15.0% 0.0056 301.3)",
+          "oklch(26.4% 0.0091 301.3)",
+          "oklch(37.9% 0.0115 301.3)",
+          "oklch(49.3% 0.0124 301.3)",
+          "oklch(60.7% 0.0117 301.3)",
+          "oklch(72.1% 0.0095 301.3)",
+          "oklch(83.6% 0.0061 301.3)",
+          "oklch(95.0% 0.0019 301.3)"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Blue",
+        "tonalRamp": [
+          "oklch(15.0% 0.0043 222.1)",
+          "oklch(26.4% 0.0070 222.1)",
+          "oklch(37.9% 0.0088 222.1)",
+          "oklch(49.3% 0.0095 222.1)",
+          "oklch(60.7% 0.0090 222.1)",
+          "oklch(72.1% 0.0073 222.1)",
+          "oklch(83.6% 0.0047 222.1)",
+          "oklch(95.0% 0.0015 222.1)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15.0% 0.0073 130.4)",
+          "oklch(26.4% 0.0119 130.4)",
+          "oklch(37.9% 0.0149 130.4)",
+          "oklch(49.3% 0.0161 130.4)",
+          "oklch(60.7% 0.0152 130.4)",
+          "oklch(72.1% 0.0124 130.4)",
+          "oklch(83.6% 0.0079 130.4)",
+          "oklch(95.0% 0.0025 130.4)"
+        ]
+      },
+      "success": {
+        "role": "secondary",
+        "displayName": "Success",
+        "tonalRamp": [
+          "oklch(15.0% 0.0333 156.8)",
+          "oklch(26.4% 0.0541 156.8)",
+          "oklch(37.9% 0.0682 156.8)",
+          "oklch(49.3% 0.0734 156.8)",
+          "oklch(60.7% 0.0693 156.8)",
+          "oklch(72.1% 0.0564 156.8)",
+          "oklch(83.6% 0.0362 156.8)",
+          "oklch(95.0% 0.0115 156.8)"
+        ]
+      },
+      "success-bg": {
+        "role": "secondary",
+        "displayName": "Success Bg",
+        "tonalRamp": [
+          "oklch(15.0% 0.0082 134.9)",
+          "oklch(26.4% 0.0133 134.9)",
+          "oklch(37.9% 0.0167 134.9)",
+          "oklch(49.3% 0.0180 134.9)",
+          "oklch(60.7% 0.0170 134.9)",
+          "oklch(72.1% 0.0138 134.9)",
+          "oklch(83.6% 0.0089 134.9)",
+          "oklch(95.0% 0.0028 134.9)"
+        ]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15.0% 0.0565 29.8)",
+          "oklch(26.4% 0.0918 29.8)",
+          "oklch(37.9% 0.1156 29.8)",
+          "oklch(49.3% 0.1244 29.8)",
+          "oklch(60.7% 0.1175 29.8)",
+          "oklch(72.1% 0.0957 29.8)",
+          "oklch(83.6% 0.0613 29.8)",
+          "oklch(95.0% 0.0195 29.8)"
+        ]
+      },
+      "error-bg": {
+        "role": "secondary",
+        "displayName": "Error Bg",
+        "tonalRamp": [
+          "oklch(15.0% 0.0069 48.6)",
+          "oklch(26.4% 0.0113 48.6)",
+          "oklch(37.9% 0.0142 48.6)",
+          "oklch(49.3% 0.0153 48.6)",
+          "oklch(60.7% 0.0144 48.6)",
+          "oklch(72.1% 0.0118 48.6)",
+          "oklch(83.6% 0.0075 48.6)",
+          "oklch(95.0% 0.0024 48.6)"
+        ]
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control",
+        "value": "140ms ease-out",
+        "purpose": "Button and navigation color changes; button press scale."
+      },
+      {
+        "name": "answer",
+        "value": "120ms ease-out",
+        "purpose": "Answer border and background states."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1190px"
+      },
+      {
+        "name": "stacked",
+        "value": "960px"
+      },
+      {
+        "name": "mobile",
+        "value": "700px"
+      },
+      {
+        "name": "narrow",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Shipped primary action treatment.",
+      "html": "<button class=\"ds-button\">Start practice</button>",
+      "css": ".ds-button {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 18px 11px 20px;border:1px solid transparent;border-radius:var(--small-radius,6px);font:560 13px/1.4 var(--font-public-sans,Arial),sans-serif;cursor:pointer;transition:background-color 140ms ease-out,transform 140ms ease-out;text-decoration:none}.ds-button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}.ds-button:active:not(:disabled){transform:scale(.96)}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-button{background:var(--forest,#244d3c);color:var(--white,#ffffff);}.ds-button:hover{background:var(--forest-hover,#173b2b);}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Shipped secondary action treatment.",
+      "html": "<button class=\"ds-button\">Start practice</button>",
+      "css": ".ds-button {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 18px 11px 20px;border:1px solid transparent;border-radius:var(--small-radius,6px);font:560 13px/1.4 var(--font-public-sans,Arial),sans-serif;cursor:pointer;transition:background-color 140ms ease-out,transform 140ms ease-out;text-decoration:none}.ds-button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}.ds-button:active:not(:disabled){transform:scale(.96)}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-button{background:transparent;color:var(--forest,#244d3c);border-color:var(--line,#dce2d7);}.ds-button:hover{background:var(--sage,#e5ecdc);}"
+    },
+    {
+      "name": "Light button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Shipped light action treatment.",
+      "html": "<button class=\"ds-button\">Start practice</button>",
+      "css": ".ds-button {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 18px 11px 20px;border:1px solid transparent;border-radius:var(--small-radius,6px);font:560 13px/1.4 var(--font-public-sans,Arial),sans-serif;cursor:pointer;transition:background-color 140ms ease-out,transform 140ms ease-out;text-decoration:none}.ds-button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}.ds-button:active:not(:disabled){transform:scale(.96)}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-button{background:#ecf1d8;color:var(--forest-hover,#173b2b);}.ds-button:hover{background:#dce8bb;}"
+    },
+    {
+      "name": "Quiet button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Shipped quiet action treatment.",
+      "html": "<button class=\"ds-button\">Start practice</button>",
+      "css": ".ds-button {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 18px 11px 20px;border:1px solid transparent;border-radius:var(--small-radius,6px);font:560 13px/1.4 var(--font-public-sans,Arial),sans-serif;cursor:pointer;transition:background-color 140ms ease-out,transform 140ms ease-out;text-decoration:none}.ds-button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}.ds-button:active:not(:disabled){transform:scale(.96)}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-button{background:transparent;color:var(--muted,#627066);padding-inline:4px;}.ds-button:hover{background:transparent;color:var(--ink,#24382d);}"
+    },
+    {
+      "name": "Danger button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Shipped danger action treatment.",
+      "html": "<button class=\"ds-button\">Clear local data</button>",
+      "css": ".ds-button {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 18px 11px 20px;border:1px solid transparent;border-radius:var(--small-radius,6px);font:560 13px/1.4 var(--font-public-sans,Arial),sans-serif;cursor:pointer;transition:background-color 140ms ease-out,transform 140ms ease-out;text-decoration:none}.ds-button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}.ds-button:active:not(:disabled){transform:scale(.96)}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-button{background:var(--error,#9b4034);color:var(--white,#ffffff);}.ds-button:hover{background:#7b2f25;}"
+    },
+    {
+      "name": "Study navigation",
+      "kind": "nav",
+      "description": "Current location within the study rail.",
+      "html": "<nav aria-label=\"Study\"><a class=\"ds-nav\" href=\"#practice\" aria-current=\"page\">Practice topics</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;min-height:46px;padding:11px 13px;border-radius:6px;background:#dae4cf;color:var(--forest,#244d3c);font:620 12px/1.6 var(--font-public-sans,Arial),sans-serif;text-decoration:none}.ds-nav:hover{background:#e2e8da}.ds-nav:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}"
+    },
+    {
+      "name": "Answer radio",
+      "kind": "input",
+      "description": "Native radio with full-row hit area.",
+      "html": "<label class=\"ds-answer\"><input type=\"radio\" name=\"sample-answer\"/><span>A</span><span>24 items</span></label>",
+      "css": ".ds-answer{position:relative;display:flex;align-items:center;gap:14px;min-height:58px;padding:13px 16px;border:1px solid var(--line,#dce2d7);border-radius:7px;cursor:pointer;color:var(--ink,#24382d);font:14px/1.6 var(--font-public-sans,Arial),sans-serif;transition:background-color 120ms ease-out,border-color 120ms ease-out}.ds-answer input{position:absolute;inset:0;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}.ds-answer:hover{background:#f6f8f1;border-color:#9cb392}.ds-answer:has(input:checked){background:#edf2e5;border-color:var(--forest,#244d3c)}.ds-answer:focus-within{outline:2px solid var(--forest,#244d3c);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-answer{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Question panel",
+      "kind": "card",
+      "description": "Flat, bordered working surface.",
+      "html": "<section class=\"ds-panel\"><h2>Choose one answer</h2><p>Read the question carefully before checking.</p></section>",
+      "css": ".ds-panel{border:1px solid var(--line,#dce2d7);border-radius:var(--radius,12px);background:var(--white,#ffffff);padding:26px 30px 28px;color:var(--ink,#24382d);font:14px/1.6 var(--font-public-sans,Arial),sans-serif}.ds-panel h2{margin:0;font-size:21px;font-weight:570;line-height:1.35;letter-spacing:-.025em}.ds-panel p{margin:15px 0 0;color:var(--muted,#627066)}"
+    },
+    {
+      "name": "Optional lesson video",
+      "kind": "custom",
+      "description": "Default-open preview of the divided resource row after written teaching. The app lazy-loads the privacy-enhanced player without autoplay; controls above close or show it. Closing or changing stages unloads it. No completion credit. This self-contained placeholder makes no external player request.",
+      "html": "<article class=\"ds-video\"><div class=\"ds-video-heading\"><svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polygon points=\"6 3 20 12 6 21 6 3\"/></svg><div><h3><a href=\"https://www.youtube.com/watch?v=T_6Mq6PWoGc\" target=\"_blank\" rel=\"noopener noreferrer\">Basic Math Review</a></h3><p class=\"ds-video-source\">The Organic Chemistry Tutor · YouTube</p></div></div><p>Optional extra study. Pause to solve the examples on paper, then try this section’s practice questions.</p><div class=\"ds-video-actions\"><button class=\"ds-video-button\" type=\"button\" aria-expanded=\"true\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg>Close video player</button><a class=\"ds-video-link\" href=\"https://www.youtube.com/watch?v=T_6Mq6PWoGc\" target=\"_blank\" rel=\"noopener noreferrer\">Open on YouTube</a></div><div class=\"ds-video-player\" role=\"img\" aria-label=\"External video player preview placeholder\"><svg width=\"44\" height=\"44\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polygon points=\"9 5 20 12 9 19 9 5\"/></svg><span>Video preview</span></div><p class=\"ds-video-note\">If the player is unavailable, use “Open on YouTube” above.</p></article>",
+      "css": ".ds-video{padding-block:20px;border-block:1px solid var(--line,#dce2d7);color:var(--ink,#24382d);font:14px/1.6 var(--font-public-sans,Arial),sans-serif}.ds-video-heading{display:flex;align-items:flex-start;gap:12px}.ds-video-heading>svg{flex-shrink:0;margin-top:3px;color:var(--forest,#244d3c)}.ds-video-heading>div{min-width:0}.ds-video-heading h3{margin:0;font-size:17px;font-weight:600;line-height:1.45;letter-spacing:-.015em;overflow-wrap:anywhere}.ds-video-heading h3 a{color:var(--forest,#244d3c);text-decoration:underline;text-underline-offset:3px}.ds-video-source{color:var(--muted,#627066);font-size:13px;margin-block:5px 0}.ds-video-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:16px}.ds-video-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:9px 15px;border:1px solid var(--line,#dce2d7);border-radius:var(--small-radius,6px);background:transparent;color:var(--forest,#244d3c);font:560 12px/1.4 var(--font-public-sans,Arial),sans-serif;cursor:pointer;transition:background-color 140ms ease-out,transform 140ms ease-out}.ds-video-button:hover{background:var(--sage,#e5ecdc)}.ds-video-button:active{transform:scale(.96)}.ds-video-link{display:inline-flex;align-items:center;min-height:44px;font-size:12px;font-weight:560;color:var(--forest,#244d3c);text-decoration:none}.ds-video-link:hover{color:var(--forest-hover,#173b2b);text-decoration:underline}.ds-video a:focus-visible,.ds-video-button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-video-button{transition-duration:.01ms}}.ds-video-player{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;width:100%;min-height:200px;aspect-ratio:16/9;border:1px solid var(--line,#dce2d7);margin-top:20px;background:var(--ink,#24382d);color:var(--white,#fff)}.ds-video-note{font-size:13px;color:var(--muted,#627066)}"
+    },
+    {
+      "name": "Progress calculation disclosure",
+      "kind": "custom",
+      "description": "Native disclosure keeps metric definitions available beneath a progress summary.",
+      "html": "<details class=\"ds-progress-method\"><summary>How overview metrics are calculated</summary><p>Practice accuracy includes unanswered items as incorrect. Answer time averages individual recorded answers; unanswered and older untimed items are excluded. Lesson completion requires all section passes and the final assessment.</p></details>",
+      "css": ".ds-progress-method{margin-top:8px;color:var(--ink,#24382d);font:12px/1.6 var(--font-public-sans,Arial),sans-serif}.ds-progress-method>summary{min-height:44px;padding-block:12px;color:var(--forest,#244d3c);cursor:pointer}.ds-progress-method>summary:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}.ds-progress-method p{margin:0 0 16px;max-width:75ch;color:var(--muted,#627066);font-size:11px;line-height:1.8}"
+    },
+    {
+      "name": "Page sharing toolbar",
+      "kind": "custom",
+      "description": "Top-right public-page sharing with Facebook and copy-link icons. Each square control is a 44px target with an accessible name.",
+      "html": "<div class=\"ds-share\" role=\"group\" aria-label=\"Share this page\"><span>Share</span><button type=\"button\" aria-label=\"Share on Facebook\" title=\"Share on Facebook\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"/></svg></button><button type=\"button\" aria-label=\"Copy link\" title=\"Copy link\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 17H7a5 5 0 0 1 0-10h2m6 0h2a5 5 0 0 1 0 10h-2M8 12h8\"/></svg></button></div>",
+      "css": ".ds-share{display:flex;align-items:center;justify-content:flex-end;gap:8px;color:var(--forest,#244d3c);font:560 13px/1.6 var(--font-public-sans,Arial),sans-serif}.ds-share>span{margin-right:5px}.ds-share button{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;flex-shrink:0;border:0;border-radius:6px;background:var(--rail,#eef1e8);color:var(--ink,#24382d);cursor:pointer}.ds-share button:hover{background:var(--sage-strong,#ceddc0);color:var(--forest-hover,#173b2b)}.ds-share button:focus-visible{outline:2px solid var(--forest,#244d3c);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Community-library study desk",
+    "overview": "Community-library study materials become a calm, useful place to practise. Warm paper, forest-green actions, sage navigation, and aligned subject rows give the interface an approachable, orderly character.\n\nThe system supports independent learning without borrowed employer authority or fictional activity. It uses restrained surfaces and explicit answer feedback at the appropriate stage: after submission or expiry for practice and mocks, and after checking for untimed instructional practice. Decorative staging never delays the next answer.",
+    "keyCharacteristics": [
+      "Useful subject rows and persistent desktop study navigation.",
+      "One self-hosted type family with clear hierarchy.",
+      "Tonal surfaces, fine dividers, and explicit answer states."
+    ],
+    "rules": [
+      {
+        "name": "The One Voice Rule",
+        "body": "Use Public Sans across headings, reading copy, controls, and numbers; use tabular numerals for timers and scores.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Study Surface Rule",
+        "body": "Separate content through space, fine dividers, and paper or sage fills. Do not add elevation to ordinary rows or answer controls.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use native links, buttons, radio inputs, details, and progress elements.",
+      "Do keep practice actions close to their instructions and preserve visible keyboard focus.",
+      "Do pair answer-state color with meaningful text or accessible icons.",
+      "Do retain honest empty states and numbers derived from recorded work.",
+      "Do distinguish chart series beyond color, label their units, and provide accessible exact values."
+    ],
+    "donts": [
+      "Don't add gradient text, purple glow, glassmorphism, decorative blobs, emoji icons, or generic stock-photo heroes.",
+      "Don't introduce all-caps eyebrows, fictional social proof, or employer affiliation.",
+      "Don't replace subject rows with a wall of interchangeable cards.",
+      "Don't animate question entrances or delay feedback once it is available."
+    ]
+  }
+}
