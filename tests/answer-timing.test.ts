@@ -1,28 +1,42 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {answerQuestion,visitQuestion,expireDrillItem,drillRepeatIds,createSession,completeSession,parseProgress,remainingSeconds,formatTime,validateSession} from '../src/lib/quiz';
+import {answerQuestion,visitQuestion,drillRepeatIds,createSession,completeSession,parseProgress,remainingSeconds,formatTime,validateSession} from '../src/lib/quiz';
 import {timingStats,formatAnswerTime} from '../src/lib/answer-timing';
 import {questionMap} from '../src/lib/questions';
 import {emptyLearning,startLearningAttempt,saveLearningAnswer,visitLearningQuestion,submitLearningAttempt,parseLearning,gradeAttempt,unitQuestions} from '../src/lib/learning-progress';
 
-test('15 drill items get 150 seconds; first selection locks and 10-second boundaries reject late answers',()=>{
+test('practice keeps a 150-second total budget and lets the first question be answered and revised after 10 seconds',()=>{
   let s=createSession('math',15,undefined,1000);assert.equal(s.deadline,151000);assert.equal(formatTime(150),'02:30');assert.equal(formatTime(500),'08:20');
   const id=s.questionIds[0],answer=questionMap.get(id)!.answer;
-  s=answerQuestion(s,answer,9900);assert.equal(s.timing!.answerMs[id],8900);assert.ok(s.checked.includes(id));
-  assert.deepEqual(answerQuestion(s,(answer+1)%4,10000),s);
-  s=visitQuestion(s,1,10500);const next=s.questionIds[1];
-  const expired=answerQuestion(s,0,20500);assert.equal(expired.answers[next],undefined);assert.ok(expired.checked.includes(next));
-  assert.equal(drillRepeatIds(completeSession(expired,21000)).length,14);
+  s=answerQuestion(s,(answer+1)%4,12000);assert.equal(s.answers[id],(answer+1)%4);
+  s=answerQuestion(s,answer,14000);assert.equal(s.answers[id],answer);assert.equal(s.timing!.answerMs[id],13000);
+  assert.equal(s.deadline,151000);
+  const result=completeSession(s,15000);assert.equal(result.score,1);
+  assert.ok(drillRepeatIds(result).includes(id),'a correct but slow final answer still needs speed practice');
+  assert.equal(answerQuestion(s,0,151000),s,'answers close at the exact total deadline');
 });
-test('viewing other questions, refreshing or waiting away cannot reset a drill item or total deadline',()=>{
+test('practice revisions survive navigation and refresh without resetting the total deadline or answer exposure',()=>{
   let s=createSession('detail',3,undefined,1000);const id=s.questionIds[0];
+  s=answerQuestion(s,0,1500);
   s=visitQuestion(s,1,2000);s=visitQuestion(s,0,8000);
-  const restored=parseProgress(JSON.stringify({version:1,attempts:[],bookmarks:[],active:s})).active!;
+  let restored=parseProgress(JSON.stringify({version:1,attempts:[],bookmarks:[],active:s})).active!;
   assert.equal(restored.timing!.firstSeenAt[id],1000);assert.equal(restored.deadline,31000);
-  const expired=expireDrillItem(restored,12000);assert.ok(expired.checked.includes(id));
-  assert.equal(expireDrillItem(expired,14000),expired);
+  restored=answerQuestion(restored,2,12000);assert.equal(restored.answers[id],2);
+  assert.equal(restored.timing!.answerMs[id],5000);
+  const roundTrip=parseProgress(JSON.stringify({version:1,attempts:[],bookmarks:[],active:restored})).active!;
+  assert.deepEqual(roundTrip,restored);
   assert.equal(remainingSeconds(restored,40000),0);assert.equal(completeSession(restored,40000).completedAt,31000);
   assert.equal(answerQuestion(restored,0,40000),restored);
+});
+test('legacy practice item locks do not prevent answering or changing resumed questions',()=>{
+  for(const previouslyAnswered of [false,true]){
+    const s=createSession('english',5,undefined,1000),id=s.questionIds[0];
+    const stored={...s,checked:[id],answers:previouslyAnswered?{[id]:0}:{}};
+    const restored=parseProgress(JSON.stringify({version:1,attempts:[],bookmarks:[],active:stored})).active!;
+    const updated=answerQuestion(restored,2,22000);
+    assert.equal(updated.answers[id],2);assert.equal(updated.timing!.answerMs[id],21000);
+    assert.equal(updated.deadline,51000);assert.equal(remainingSeconds(updated,22000),29);
+  }
 });
 test('mock answer time accumulates exposure across revisits and measures the final selection',()=>{
   let s=createSession('mock',50,undefined,1000);const first=s.questionIds[0];

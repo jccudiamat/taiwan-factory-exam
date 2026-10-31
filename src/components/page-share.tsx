@@ -2,11 +2,7 @@
 
 import {useEffect,useId,useState} from 'react';
 import {Check,Facebook,Link2} from 'lucide-react';
-import {facebookShareUrl,hasPageSharing,isLocalShareUrl,pageShareUrl} from '@/lib/sharing';
-
-export function PublicPageShare({path}:{path:string}){
-  return hasPageSharing(path)?<PageShare key={path} path={path}/>:null;
-}
+import {facebookShareUrl,isLocalShareUrl,pageShareUrl} from '@/lib/sharing';
 
 export function PageShare({path,label='Share this page'}:{path:string;label?:string}){
   const [url,setUrl]=useState<string|null>(null);

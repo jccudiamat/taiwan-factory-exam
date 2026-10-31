@@ -6,7 +6,6 @@ import { BookOpen, Bookmark, ChartNoAxesColumnIncreasing, CircleHelp, ClipboardL
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { BrandMark } from "./icons";
 import { useProgress } from "./progress-provider";
-import { PublicPageShare } from "./page-share";
 
 const navigation = [
   { href: "/", label: "Study desk", icon: House },
@@ -63,7 +62,7 @@ export function Shell({ children }: { children: ReactNode }) {
         <section className="site-disclaimer" aria-label="Independent exam preparation disclaimer"><p><strong>Independent Taiwan factory exam preparation.</strong> We are not affiliated with any employer, recruitment agency, or government body. Written exam questions are original practice exercises, not official recruitment exams. Test formats and requirements vary; verify current details with your employer or licensed agency. Practice scores and readiness indicators do not guarantee passing or employment. Color-vision activities are not medical screening or diagnosis. <Link href="/about/">About this project</Link></p><button className="icon-button disclaimer-close" onClick={dismissDisclaimer} aria-label="Dismiss disclaimer"><X size={19} aria-hidden="true"/></button></section>
       </header> : null}
       {storageIssue ? <div className="storage-warning" role="status">Your browser isn’t saving progress. You can still practise, but keep this tab open. Allow site storage to save future changes.</div> : null}
-      <main ref={main} id="main" className="main-content" tabIndex={-1}><PublicPageShare path={pathname}/>{children}</main>
+      <main ref={main} id="main" className="main-content" tabIndex={-1}>{children}</main>
       <footer className="footer"><p>Independent practice. No recruitment or employment guarantees.</p><div><Link href="/privacy/">Privacy</Link><Link href="/terms/">Terms</Link><span>Original exam preparation exercises.</span></div></footer>
     </div>
   </div>;

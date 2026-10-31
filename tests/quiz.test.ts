@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 
 import { questions, topics, questionMap } from "../src/lib/questions";
 
-import { answerQuestion,visitQuestion,expireDrillItem,drillRepeatIds,MOCK_SECTIONS,createSession, completeSession, scoreSession, parseProgress, validateSession, remainingSeconds, mistakeIds, topicStats, STORAGE_KEY } from "../src/lib/quiz";
+import { answerQuestion,visitQuestion,drillRepeatIds,MOCK_SECTIONS,createSession, completeSession, scoreSession, parseProgress, validateSession, remainingSeconds, mistakeIds, topicStats, STORAGE_KEY } from "../src/lib/quiz";
 
 
 

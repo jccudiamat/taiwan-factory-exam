@@ -1,5 +1,5 @@
-// Plain public pages shared by the shell. Quiz introductions and teaching
-// sections own their controls, keeping active attempts and results unshared.
+// Public page headers that offer sharing by default. Quiz introductions and
+// teaching sections control visibility, keeping active attempts and results unshared.
 const publicPages=new Set([
   '/','/learn/','/practice/','/guides/','/preparation/','/preparation/interview/',
   '/color-vision/','/about/','/privacy/','/terms/',

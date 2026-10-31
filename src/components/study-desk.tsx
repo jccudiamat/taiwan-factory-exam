@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, CheckCircle2, Clock3, Leaf, ShieldCheck } from "lucide-react";
 import { DailySamplesCard } from "./daily-samples";
+import { PageShare } from "./page-share";
 import { useProgress } from "./progress-provider";
 import { TopicIcon } from "./icons";
 import { questions, topics, scopeTitle } from "@/lib/questions";
@@ -23,7 +24,7 @@ export function StudyDesk() {
   const mistakes = mistakeIds(data.attempts);
   const activeUrl = data.active?.scope === "mock" ? "/mock-exam/" : `/practice/${data.active?.scope}/`;
   return <>
-    <div className="page-top"><span className="page-context">Taiwan factory exam practice</span><Link className="text-link" href="/progress/">View my progress <ArrowRight size={16} aria-hidden="true"/></Link></div>
+    <div className="page-top"><span className="page-context">Taiwan factory exam practice</span><div className="study-desk-actions"><Link className="text-link" href="/progress/">View my progress <ArrowRight size={16} aria-hidden="true"/></Link><PageShare path="/" label="Share this study desk"/></div></div>
     {ready && data.active ? <div className="resume-banner"><div><strong>Pick up where you left off</strong><span>{scopeTitle(data.active.scope)} · Question {data.active.position + 1} of {data.active.questionIds.length}{data.active.deadline ? " · Timer is still running" : ""}</span></div><Link className="button button-small" href={activeUrl}>Resume <ArrowRight size={16} aria-hidden="true"/></Link></div> : null}
     <div className="desk-hero"><div className="hero-copy"><h1>Taiwan Factory Exam<br/>{" "}<span>Practice & Preparation</span></h1><p>Free Taiwan factory worker exam practice for Filipino applicants. Start with lessons and worked solutions, practise math, English, logic, and visual checking, then take a timed mock exam.</p><div className="button-row hero-actions"><Link className="button" href="/learn/">Start with exam lessons <ArrowRight size={18} aria-hidden="true"/></Link><Link className="text-link" href="/practice/">Go to practice <ArrowRight size={16} aria-hidden="true"/></Link></div><div className="hero-footnote"><CheckCircle2 size={15} aria-hidden="true"/>Free to practise. No sign-up needed.</div></div><DailySamplesCard/></div>
     <div className="study-summary"><div><span className="summary-label">Your practice so far</span><strong>{ready && total ? `${total} questions completed` : "No completed practice sessions"}</strong></div><div className="summary-detail"><span>{ready && total ? `${Math.round(correct / total * 100)}% overall accuracy` : "Start with just 10 questions"}</span><span className="summary-separator"/><span>{ready && data.attempts.length ? `${data.attempts.length} completed sessions` : "10 seconds per drill item"}</span></div><Leaf size={22} strokeWidth={1.5} aria-hidden="true"/></div>

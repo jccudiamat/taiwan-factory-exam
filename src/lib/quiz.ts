@@ -54,15 +54,11 @@ export function visitQuestion(session:Session, position:number, now=Date.now()):
 }
 export function answerQuestion(session:Session, answer:number, now=Date.now()):Session {
   const id=session.questionIds[session.position];
-  if(!Number.isInteger(answer)||answer<0||answer>3||session.deadline!==null&&now>=session.deadline||session.scope!=='mock'&&session.checked.includes(id))return session;
-  if(session.scope!=='mock'&&session.timing&&now>=(session.timing.firstSeenAt[id]+ITEM_MS))return expireDrillItem(session,now);
-  return {...session,answers:{...session.answers,[id]:answer},checked:session.scope==='mock'?session.checked:[...session.checked,id],
+  if(!Number.isInteger(answer)||answer<0||answer>=questionMap.get(id)!.options.length||session.deadline!==null&&now>=session.deadline)return session;
+  // Legacy checked IDs must not lock resumed practice. Only the total deadline
+  // closes answers; timing records exposure until the learner's final selection.
+  return {...session,answers:{...session.answers,[id]:answer},
     timing:session.timing?answerTiming(session.timing,id,now):undefined};
-}
-export function expireDrillItem(session:Session,now=Date.now()):Session {
-  const id=session.questionIds[session.position];
-  if(session.scope==='mock'||!session.timing||session.checked.includes(id)||now<session.timing.firstSeenAt[id]+ITEM_MS)return session;
-  return {...session,checked:[...session.checked,id]};
 }
 export function drillRepeatIds(attempt:Attempt):string[] {
   return attempt.questionIds.filter(id=>attempt.answers[id]!==questionMap.get(id)?.answer||attempt.timing?.answerMs[id]!==undefined&&attempt.timing.answerMs[id]>=ITEM_MS);
