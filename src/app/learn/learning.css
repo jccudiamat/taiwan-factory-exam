@@ -1,4 +1,3 @@
-.learning-catalog-note { max-width:76ch; color:var(--muted); margin-bottom:30px; line-height:1.8; }
 .curriculum-subject { margin:36px 0 8px; padding-bottom:14px; border-bottom:1px solid var(--line); }
 .curriculum-row { display:grid; grid-template-columns:minmax(0,1fr) 230px; gap:40px; padding:25px 0; border-bottom:1px solid var(--line); }
 .curriculum-row h3 { font-size:19px; }
